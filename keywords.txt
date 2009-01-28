@@ -1,0 +1,5 @@
+TinyQueue	KEYWORD1
+enqueue	KEYWORD2
+dequeue	KEYWORD2
+size	KEYWORD2
+destroy	KEYWORD2
