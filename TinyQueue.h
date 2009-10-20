@@ -24,7 +24,7 @@ TinyQueue<T>::TinyQueue(int size)
     _bufsiz = size + 1;
     _head = 0;
     _tail = 0;
-    _buffer = (T *) malloc(_bufsiz);
+    _buffer = (T *) malloc(sizeof(T) * _bufsiz);
 }
 
 template <typename T>
